@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD8CF32295F41940068B959 /* SosyalMediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8CF31295F41940068B959 /* SosyalMediaApp.swift */; };
+		CFD8CF34295F41940068B959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8CF33295F41940068B959 /* ContentView.swift */; };
+		CFD8CF36295F41950068B959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD8CF35295F41950068B959 /* Assets.xcassets */; };
+		CFD8CF39295F41950068B959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD8CF38295F41950068B959 /* Preview Assets.xcassets */; };
+		CFD8CF43295F41950068B959 /* SosyalMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8CF42295F41950068B959 /* SosyalMediaTests.swift */; };
+		CFD8CF4D295F41950068B959 /* SosyalMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8CF4C295F41950068B959 /* SosyalMediaUITests.swift */; };
+		CFD8CF4F295F41950068B959 /* SosyalMediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8CF4E295F41950068B959 /* SosyalMediaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD8CF3F295F41950068B959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD8CF26295F41940068B959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD8CF2D295F41940068B959;
+			remoteInfo = SosyalMedia;
+		};
+		CFD8CF49295F41950068B959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD8CF26295F41940068B959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD8CF2D295F41940068B959;
+			remoteInfo = SosyalMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD8CF2E295F41940068B959 /* SosyalMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosyalMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD8CF31295F41940068B959 /* SosyalMediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalMediaApp.swift; sourceTree = "<group>"; };
+		CFD8CF33295F41940068B959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFD8CF35295F41950068B959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD8CF38295F41950068B959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD8CF3E295F41950068B959 /* SosyalMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD8CF42295F41950068B959 /* SosyalMediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalMediaTests.swift; sourceTree = "<group>"; };
+		CFD8CF48295F41950068B959 /* SosyalMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD8CF4C295F41950068B959 /* SosyalMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalMediaUITests.swift; sourceTree = "<group>"; };
+		CFD8CF4E295F41950068B959 /* SosyalMediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalMediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD8CF2B295F41940068B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8CF3B295F41950068B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8CF45295F41950068B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD8CF25295F41940068B959 = {
+			isa = PBXGroup;
+			children = (
+				CFD8CF30295F41940068B959 /* SosyalMedia */,
+				CFD8CF41295F41950068B959 /* SosyalMediaTests */,
+				CFD8CF4B295F41950068B959 /* SosyalMediaUITests */,
+				CFD8CF2F295F41940068B959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD8CF2F295F41940068B959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8CF2E295F41940068B959 /* SosyalMedia.app */,
+				CFD8CF3E295F41950068B959 /* SosyalMediaTests.xctest */,
+				CFD8CF48295F41950068B959 /* SosyalMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD8CF30295F41940068B959 /* SosyalMedia */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8CF31295F41940068B959 /* SosyalMediaApp.swift */,
+				CFD8CF33295F41940068B959 /* ContentView.swift */,
+				CFD8CF35295F41950068B959 /* Assets.xcassets */,
+				CFD8CF37295F41950068B959 /* Preview Content */,
+			);
+			path = SosyalMedia;
+			sourceTree = "<group>";
+		};
+		CFD8CF37295F41950068B959 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8CF38295F41950068B959 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFD8CF41295F41950068B959 /* SosyalMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8CF42295F41950068B959 /* SosyalMediaTests.swift */,
+			);
+			path = SosyalMediaTests;
+			sourceTree = "<group>";
+		};
+		CFD8CF4B295F41950068B959 /* SosyalMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8CF4C295F41950068B959 /* SosyalMediaUITests.swift */,
+				CFD8CF4E295F41950068B959 /* SosyalMediaUITestsLaunchTests.swift */,
+			);
+			path = SosyalMediaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD8CF2D295F41940068B959 /* SosyalMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD8CF52295F41950068B959 /* Build configuration list for PBXNativeTarget "SosyalMedia" */;
+			buildPhases = (
+				CFD8CF2A295F41940068B959 /* Sources */,
+				CFD8CF2B295F41940068B959 /* Frameworks */,
+				CFD8CF2C295F41940068B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SosyalMedia;
+			productName = SosyalMedia;
+			productReference = CFD8CF2E295F41940068B959 /* SosyalMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD8CF3D295F41950068B959 /* SosyalMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD8CF55295F41950068B959 /* Build configuration list for PBXNativeTarget "SosyalMediaTests" */;
+			buildPhases = (
+				CFD8CF3A295F41950068B959 /* Sources */,
+				CFD8CF3B295F41950068B959 /* Frameworks */,
+				CFD8CF3C295F41950068B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD8CF40295F41950068B959 /* PBXTargetDependency */,
+			);
+			name = SosyalMediaTests;
+			productName = SosyalMediaTests;
+			productReference = CFD8CF3E295F41950068B959 /* SosyalMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFD8CF47295F41950068B959 /* SosyalMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD8CF58295F41950068B959 /* Build configuration list for PBXNativeTarget "SosyalMediaUITests" */;
+			buildPhases = (
+				CFD8CF44295F41950068B959 /* Sources */,
+				CFD8CF45295F41950068B959 /* Frameworks */,
+				CFD8CF46295F41950068B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD8CF4A295F41950068B959 /* PBXTargetDependency */,
+			);
+			name = SosyalMediaUITests;
+			productName = SosyalMediaUITests;
+			productReference = CFD8CF48295F41950068B959 /* SosyalMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD8CF26295F41940068B959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CFD8CF2D295F41940068B959 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CFD8CF3D295F41950068B959 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFD8CF2D295F41940068B959;
+					};
+					CFD8CF47295F41950068B959 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFD8CF2D295F41940068B959;
+					};
+				};
+			};
+			buildConfigurationList = CFD8CF29295F41940068B959 /* Build configuration list for PBXProject "SosyalMedia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD8CF25295F41940068B959;
+			productRefGroup = CFD8CF2F295F41940068B959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD8CF2D295F41940068B959 /* SosyalMedia */,
+				CFD8CF3D295F41950068B959 /* SosyalMediaTests */,
+				CFD8CF47295F41950068B959 /* SosyalMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD8CF2C295F41940068B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8CF39295F41950068B959 /* Preview Assets.xcassets in Resources */,
+				CFD8CF36295F41950068B959 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8CF3C295F41950068B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8CF46295F41950068B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD8CF2A295F41940068B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8CF34295F41940068B959 /* ContentView.swift in Sources */,
+				CFD8CF32295F41940068B959 /* SosyalMediaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8CF3A295F41950068B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8CF43295F41950068B959 /* SosyalMediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8CF44295F41950068B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8CF4F295F41950068B959 /* SosyalMediaUITestsLaunchTests.swift in Sources */,
+				CFD8CF4D295F41950068B959 /* SosyalMediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD8CF40295F41950068B959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD8CF2D295F41940068B959 /* SosyalMedia */;
+			targetProxy = CFD8CF3F295F41950068B959 /* PBXContainerItemProxy */;
+		};
+		CFD8CF4A295F41950068B959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD8CF2D295F41940068B959 /* SosyalMedia */;
+			targetProxy = CFD8CF49295F41950068B959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFD8CF50295F41950068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD8CF51295F41950068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD8CF53295F41950068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SosyalMedia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.SosyalMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD8CF54295F41950068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SosyalMedia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.SosyalMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFD8CF56295F41950068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.SosyalMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosyalMedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SosyalMedia";
+			};
+			name = Debug;
+		};
+		CFD8CF57295F41950068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.SosyalMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosyalMedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SosyalMedia";
+			};
+			name = Release;
+		};
+		CFD8CF59295F41950068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.SosyalMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosyalMedia;
+			};
+			name = Debug;
+		};
+		CFD8CF5A295F41950068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ayhan.com.SosyalMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosyalMedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD8CF29295F41940068B959 /* Build configuration list for PBXProject "SosyalMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8CF50295F41950068B959 /* Debug */,
+				CFD8CF51295F41950068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD8CF52295F41950068B959 /* Build configuration list for PBXNativeTarget "SosyalMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8CF53295F41950068B959 /* Debug */,
+				CFD8CF54295F41950068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD8CF55295F41950068B959 /* Build configuration list for PBXNativeTarget "SosyalMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8CF56295F41950068B959 /* Debug */,
+				CFD8CF57295F41950068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD8CF58295F41950068B959 /* Build configuration list for PBXNativeTarget "SosyalMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8CF59295F41950068B959 /* Debug */,
+				CFD8CF5A295F41950068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD8CF26295F41940068B959 /* Project object */;
+}
